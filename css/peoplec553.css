@@ -1,0 +1,69 @@
+.profile-panel-left {
+    text-align: center;
+}
+
+.leadership-name {
+    font-size: 1.4rem;
+    color: var(--aiira-dark);
+    font-weight: 500;
+}
+
+.profile-pi-panel .info-panel {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-pi-panel .leadership-name {
+    font-weight: 500;
+    color: inherit;
+}
+
+.leadership-title, .leadership-institution {
+    color: inherit;
+}
+
+.profile-pi-panel .leadership-title, .profile-pi-panel .leadership-institution {
+    font-size: 1.2rem;
+}
+
+.leadership-additional-information {
+    font-size: 1rem;
+}
+
+.profile-panel-right {
+    border-left: 2px solid var(--aiira-light-gray);
+}
+
+.metrics {
+    line-height: 1.2rem;
+}
+
+.metrics .metrics-label {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.metrics .metrics-value {
+    font-size: 1.1rem;
+}
+
+.metrics-link {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .profile-panel-right {
+        border: none;
+    }
+
+    .leadership-name {
+        font-size: 1.2rem;
+    }
+
+    .info-panel {
+        position: relative !important;
+        background-color: var(--aiira-dark) !important;
+    }
+}

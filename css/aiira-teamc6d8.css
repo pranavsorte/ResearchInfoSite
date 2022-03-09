@@ -1,0 +1,127 @@
+svg g#edges line {
+    opacity: 0.8;
+    fill: none;
+    stroke: #666666;
+    stroke-width: 4.7602;
+    stroke-miterlimit: 10;
+}
+
+svg g[id^='circles-'] path,
+svg g[id^='circles-'] circle {
+    stroke-width: 8.9254;
+    stroke-miterlimit: 10;
+}
+
+svg g#circles-iowa-state-university path, 
+svg g#circles-iowa-state-university circle {
+    fill: var(--color-iowa-state-university-cardinal);
+    stroke: var(--color-iowa-state-university-gold);
+}
+
+svg g#circles-carnegie-mellon-university path, 
+svg g#circles-carnegie-mellon-university circle {
+    fill: var(--color-carnegie-mellon-university-white);
+    stroke: var(--color-carnegie-mellon-university-red);
+}
+
+svg g#circles-george-mason-university path, 
+svg g#circles-george-mason-university circle {
+    fill: var(--color-george-mason-university-green);
+    stroke: var(--color-george-mason-university-gold);
+}
+
+svg g#circles-university-of-missouri path, 
+svg g#circles-university-of-missouri circle {
+    fill: var(--color-university-of-missouri-gold);
+    stroke: var(--color-university-of-missouri-black);
+}
+
+svg g#circles-iowa-soybean-association path, 
+svg g#circles-iowa-soybean-association circle {
+    fill: var(--color-iowa-soybean-association-blue);
+    /*stroke: var(--color-iowa-soybean-association-white);*/
+    stroke: #eeeeee;
+}
+
+svg g#circles-university-of-arizona path, 
+svg g#circles-university-of-arizona circle {
+    fill: var(--color-university-of-arizona-blue);
+    stroke: var(--color-university-of-arizona-red);
+}
+
+svg g#circles-university-of-nebraska path, 
+svg g#circles-university-of-nebraska circle {
+    fill: var(--color-university-of-nebraska-lincoln-cream);
+    stroke: var(--color-university-of-nebraska-lincoln-red);
+}
+
+svg g#circles-new-york-university path, 
+svg g#circles-new-york-university circle {
+    fill: var(--color-new-york-university-purple);
+    /*stroke: var(--color-new-york-university-white);*/
+    stroke: #eeeeee;
+}
+
+svg image:hover { cursor: pointer; }
+
+.side-anchor-link { text-decoration: none !important; }
+.side-anchor-link { color: var(--bs-white); }
+.side-anchor-link.active, .side-anchor-link:hover { color: var(--bs-yellow); }
+
+.headshot-pi { max-width: 150px; }
+
+.headshot-category, .headshot-generic { 
+    max-width: 150px;
+    border-style: solid;
+}
+.headshot-category {
+    border-width: 7px;
+}
+
+.headshot-generic {
+    border-width: 3px;
+    border-color: var(--aiira-dark);
+    background-color: #666666;
+}
+
+.headshot-category.iowa-state-university {
+    border-color: var(--color-iowa-state-university-gold);
+    background-color: var(--color-iowa-state-university-cardinal);
+}
+.headshot-category.carnegie-mellon-university {
+    border-color: var(--color-carnegie-mellon-university-red);
+    background-color: var(--color-carnegie-mellon-university-white);
+}
+.headshot-category.university-of-arizona {
+    border-color: var(--color-university-of-arizona-red);
+    background-color: var(--color-university-of-arizona-blue);
+}
+.headshot-category.university-of-missouri {
+    border-color: var(--color-university-of-missouri-black);
+    background-color: var(--color-university-of-missouri-gold);
+}
+.headshot-category.george-mason-university {
+    border-color: var(--color-george-mason-university-gold);
+    background-color: var(--color-george-mason-university-green);
+}
+.headshot-category.university-of-nebraska-lincoln {
+    border-color: var(--color-university-of-nebraska-lincoln-red);
+    background-color: var(--color-university-of-nebraska-lincoln-cream);
+}
+.headshot-category.new-york-university {
+    border-color: var(--color-new-york-university-purple);
+    background-color: var(--color-new-york-university-white);
+}
+.headshot-category.iowa-soybean-association {
+    border-color: var(--color-iowa-soybean-association-blue);
+    background-color: var(--color-iowa-soybean-association-white);
+}
+
+
+.logo-vertical { max-height: 50px; }
+.logo-horizontal { max-width: 120px; }
+
+.profile-name, .profile-title { font-size: 1.2rem; }
+.profile-institution, .profile-lab { font-size: 1.1rem; }
+.profile-role { font-size: 1.1rem; }
+.profile-supervisor { font-size: 1rem; }

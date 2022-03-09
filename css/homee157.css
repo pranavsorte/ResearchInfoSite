@@ -1,0 +1,13 @@
+:root {
+    --max-carousel-height: 600px;
+}
+
+#aiira-carousel .carousel-inner {
+    max-height: var(--max-carousel-height);
+}
+
+.carousel-item img, .carousel-item video { 
+    width: 100%;
+    height: var(--max-carousel-height);
+    object-fit: cover;
+}

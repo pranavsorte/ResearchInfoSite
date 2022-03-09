@@ -1,0 +1,9 @@
+table .col-institutions { width: 25%; }
+
+table .col-artificial-intelligence,
+table .col-cyber-infrastructure,
+table .col-data-driven-ag,
+table .col-adoption,
+table .col-bpc-ewd-ckt {
+    width: 15%;
+} 

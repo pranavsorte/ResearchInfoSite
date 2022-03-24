@@ -161,7 +161,16 @@ body {
     padding: 0 !important;
     margin: 0 !important;
 }
-
+/* #label-name
+ {
+        
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+    
+} */
 .clearfix:after { 
     content: "."; 
     visibility: hidden; 
@@ -572,5 +581,14 @@ quote:after { content: "\275e"; color: var(--aiira-blue); }
 
     .c-navbar-navigation .c-navbar-item .c-navbar-link-caret {
         display: block;
+    }
+    .label {
+        
+            color: #B4886B;
+            font-weight: bold;
+            display: block;
+            width: 150px;
+            float: left;
+            
     }
 }

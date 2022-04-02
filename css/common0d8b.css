@@ -160,6 +160,8 @@ body {
     font-size: var(--content-text-font-size);
     padding: 0 !important;
     margin: 0 !important;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 /* #label-name
  {

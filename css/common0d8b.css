@@ -195,6 +195,33 @@ body {
     min-height: var(--navbar-height);
     color: var(--bs-white);
 }
+.carousel {
+    /* margin-bottom: 4rem; */
+    position: relative;   
+    
+  }       
+  
+  .carousel-inner {
+    background: red;
+  }
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+.carousel-item {
+height: 50rem;
+}    
+
+ .carousel-item > img {
+    position: relative;
+    top: 0;
+    left: 0;    
+    height: 32rem;
+    object-fit: contain;    
+  }
+
 
 .c-navbar img.c-navbar-brand-logo {
     /*max-width: var(--navbar-logo-width);*/
